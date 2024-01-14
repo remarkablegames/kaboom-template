@@ -6,14 +6,18 @@
   "scripts": {
     "build": "esbuild --bundle src/main.js --outfile=www/main.js --minify",
     "dev": "esbuild --bundle src/main.js --outfile=www/main.js --servedir=www",
-    "bundle": "npm run build && mkdir -p dist && zip -r dist/game.zip www -x \"**/.DS_Store\""
+    "bundle": "npm run build && mkdir -p dist && zip -r dist/game.zip www -x \"**/.DS_Store\"",
+    "postinstall": "husky install"
   },
   "homepage": "https://remarkablegames.org/kaboom-template/",
   "dependencies": {
     "kaboom": "3000.1.17"
   },
   "devDependencies": {
-    "esbuild": "0.19.11"
+    "@commitlint/cli": "18.4.4",
+    "@commitlint/config-conventional": "18.4.4",
+    "esbuild": "0.19.11",
+    "husky": "8.0.3"
   },
   "private": true,
   "license": "MIT"
