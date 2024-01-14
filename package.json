@@ -5,8 +5,12 @@
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
     "build": "esbuild --bundle src/main.js --outfile=www/main.js --minify",
-    "dev": "esbuild --bundle src/main.js --outfile=www/main.js --servedir=www",
     "bundle": "npm run build && mkdir -p dist && zip -r dist/game.zip www -x \"**/.DS_Store\"",
+    "clean": "rm -rf dist",
+    "dev": "esbuild --bundle src/main.js --outfile=www/main.js --servedir=www",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:tsc": "tsc --noEmit",
     "postinstall": "husky install"
   },
   "homepage": "https://remarkablegames.org/kaboom-template/",
