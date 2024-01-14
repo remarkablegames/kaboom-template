@@ -1,14 +1,20 @@
 {
-	"name": "kaboom-template",
-	"scripts": {
-		"build": "esbuild --bundle src/main.js --outfile=www/main.js --minify",
-		"dev": "esbuild --bundle src/main.js --outfile=www/main.js --servedir=www",
-		"bundle": "npm run build && mkdir -p dist && zip -r dist/game.zip www -x \"**/.DS_Store\""
-	},
-	"dependencies": {
-		"kaboom": "^3000.1.17"
-	},
-	"devDependencies": {
-		"esbuild": "^0.19.11"
-	}
+  "name": "kaboom-template",
+  "version": "1.0.0-alpha",
+  "description": "A template for building Kaboom games.",
+  "author": "Mark <mark@remarkablemark.org>",
+  "scripts": {
+    "build": "esbuild --bundle src/main.js --outfile=www/main.js --minify",
+    "dev": "esbuild --bundle src/main.js --outfile=www/main.js --servedir=www",
+    "bundle": "npm run build && mkdir -p dist && zip -r dist/game.zip www -x \"**/.DS_Store\""
+  },
+  "homepage": "https://remarkablegames.org/kaboom-template/",
+  "dependencies": {
+    "kaboom": "^3000.1.17"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.11"
+  },
+  "private": true,
+  "license": "MIT"
 }
