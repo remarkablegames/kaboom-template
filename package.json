@@ -10,10 +10,10 @@
   },
   "homepage": "https://remarkablegames.org/kaboom-template/",
   "dependencies": {
-    "kaboom": "^3000.1.17"
+    "kaboom": "3000.1.17"
   },
   "devDependencies": {
-    "esbuild": "^0.19.11"
+    "esbuild": "0.19.11"
   },
   "private": true,
   "license": "MIT"
