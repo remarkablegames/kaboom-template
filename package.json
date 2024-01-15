@@ -4,14 +4,14 @@
   "description": "A template for building Kaboom games.",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
-    "build": "esbuild --bundle src/main.js --outfile=www/main.js --minify",
-    "bundle": "npm run build && mkdir -p dist && zip -r dist/game.zip www -x \"**/.DS_Store\"",
+    "build": "npm run clean && vite build",
     "clean": "rm -rf dist",
-    "dev": "esbuild --bundle src/main.js --outfile=www/main.js --servedir=www",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
     "lint:tsc": "tsc --noEmit",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "preview": "vite preview",
+    "start": "vite --open"
   },
   "homepage": "https://remarkablegames.org/kaboom-template/",
   "dependencies": {
