@@ -1,9 +1,13 @@
+import "kaboom/global"
+
 import kaboom from "kaboom"
 
-const k = kaboom()
+import bean from "/sprites/bean.png"
 
-k.loadSprite("bean", "sprites/bean.png")
+kaboom()
 
-k.add([k.pos(120, 80), k.sprite("bean")])
+loadSprite("bean", bean)
 
-k.onClick(() => k.addKaboom(k.mousePos()))
+add([pos(120, 80), sprite("bean")])
+
+onClick(() => addKaboom(mousePos()))
