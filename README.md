@@ -1,27 +1,66 @@
-# Folder structure
+# kaboom-template
 
-- `src` - source code for your kaboom project
-- `www` - distribution folder, contains your index.html, built js bundle and static assets
+<kbd>kaboom-template</kbd> is a template for making [Kaboom](https://kaboomjs.com/) games.
 
+Demo:
 
-## Development
+- [remarkablegames](https://remarkablegames.org/kaboom-template)
+
+Stack:
+
+- [Kaboom](https://kaboomjs.com/)
+- [Vite](https://vitejs.dev/)
+- [GitHub Pages](https://pages.github.com/)
+
+## Prerequisites
+
+- [nvm](https://github.com/nvm-sh/nvm#readme)
+
+## Install
+
+Clone the repository:
 
 ```sh
-$ npm run dev
+git clone https://github.com/remarkablegames/kaboom-template.git
+cd kaboom-template
 ```
 
-will start a dev server at http://localhost:8000
-
-## Distribution
+Install the dependencies:
 
 ```sh
-$ npm run build
+npm install
 ```
 
-will build your js files into `www/main.js`
+## Available Scripts
 
-```sh
-$ npm run bundle
-```
+In the project directory, you can run:
 
-will build your game and package into a .zip file, you can upload to your server or itch.io / newground etc.
+### `npm start`
+
+Runs the game in the development mode.
+
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+The page will reload if you make edits.
+
+You will also see any errors in the console.
+
+### `npm run build`
+
+Builds the game for production to the `dist` folder.
+
+It correctly bundles in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+
+Your game is ready to be deployed!
+
+### `npm run bundle`
+
+Builds the game and packages it into a Zip file in the `dist` folder.
+
+Your game can be uploaded to your server, [Itch.io](https://itch.io/), [Newgrounds](https://www.newgrounds.com/), etc.
+
+## License
+
+[MIT](LICENSE)
