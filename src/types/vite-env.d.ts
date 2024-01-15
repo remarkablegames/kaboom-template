@@ -1,5 +1,7 @@
 /// <reference types="vite/client" />
 
+import 'kaboom/global'
+
 interface ImportMetaEnv {
   readonly DEV: boolean
 }
