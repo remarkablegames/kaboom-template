@@ -1,6 +1,28 @@
 <!doctype html>
-<html>
+<html lang="en-US">
   <head>
+    <!--
+      GitHub Corners. See https://github.com/remarkablemark/github-corners
+    -->
+    <% if (process.env.BUNDLE !== 'true') { %>
+    <script
+      src="https://unpkg.com/github-corners/dist/embed.min.js"
+      data-href="https://github.com/remarkablegames/kaboom-template"
+      data-target="_blank"
+      async
+      defer
+    ></script>
+    <style>
+      .github-corner > svg {
+        opacity: 0.6;
+        transition: opacity 0.4s;
+      }
+      .github-corner:hover > svg {
+        opacity: 1;
+      }
+    </style>
+    <% } %>
+
     <title>kaboom-template | remarkablegames</title>
   </head>
   <body>
