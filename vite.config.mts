@@ -5,5 +5,8 @@ export default defineConfig({
   build: {
     assetsInlineLimit: 0,
   },
+  esbuild: {
+    minifySyntax: false,
+  },
   plugins: [createHtmlPlugin({ viteNext: true })],
 })
