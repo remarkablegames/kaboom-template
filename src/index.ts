@@ -1,5 +1,3 @@
-import { bean } from './sprites'
+import { start } from './scenes'
 
-add([pos(120, 80), bean])
-
-onClick(() => addKaboom(mousePos()))
+start()
