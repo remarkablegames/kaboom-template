@@ -1,5 +1,5 @@
 import { bean } from '../sprites'
 
 export function addPlayer() {
-  return add([pos(120, 80), bean])
+  return add([pos(center()), bean])
 }
