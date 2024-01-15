@@ -1,7 +1,8 @@
-import { bean } from '../sprites'
+import { addCursorKeys } from '../events'
+import { addPlayer } from '../gameobjects'
 
 scene('game', () => {
-  add([pos(120, 80), bean])
+  addCursorKeys(addPlayer())
 
   onClick(() => addKaboom(mousePos()))
 })
