@@ -1,6 +1,5 @@
 import { addCursorKeys } from '../events'
-import { addPlayer } from '../gameobjects'
-import { ghosty } from '../sprites'
+import { addEnemy, addPlayer } from '../gameobjects'
 
 scene('game', () => {
   const player = addPlayer()
@@ -18,6 +17,6 @@ scene('game', () => {
   for (let i = 0; i < 3; i++) {
     const x = rand(0, width())
     const y = rand(0, height())
-    add([ghosty, pos(x, y)])
+    addEnemy(x, y)
   }
 })
