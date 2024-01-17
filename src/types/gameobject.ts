@@ -1,3 +1,3 @@
-import type { GameObj, PosComp, SpriteComp } from 'kaboom'
+import { addPlayer } from '../gameobjects'
 
-export type Player = GameObj<PosComp | SpriteComp>
+export type Player = ReturnType<typeof addPlayer>
