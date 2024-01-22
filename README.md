@@ -25,6 +25,12 @@ git clone https://github.com/remarkablegames/kaboom-template.git
 cd kaboom-template
 ```
 
+Use the Node.js version:
+
+```sh
+nvm use
+```
+
 Install the dependencies:
 
 ```sh
