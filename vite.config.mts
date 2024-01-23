@@ -8,5 +8,5 @@ export default defineConfig({
   esbuild: {
     minifySyntax: false,
   },
-  plugins: [createHtmlPlugin({ viteNext: true })],
+  plugins: [createHtmlPlugin()],
 })
