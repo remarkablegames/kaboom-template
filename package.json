@@ -19,7 +19,7 @@
     "kaboom": "3000.1.17"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.5.0",
+    "@commitlint/cli": "18.6.0",
     "@commitlint/config-conventional": "18.5.0",
     "@typescript-eslint/eslint-plugin": "6.19.1",
     "@typescript-eslint/parser": "6.19.1",
