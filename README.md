@@ -1,12 +1,8 @@
 # kaboom-template
 
-<kbd>kaboom-template</kbd> is a template for making [Kaboom](https://kaboomjs.com/) games.
+<kbd>kaboom-template</kbd> is a template for making [Kaboom](https://kaboomjs.com/) games. See [example](https://remarkablegames.org/kaboom-template).
 
-Demo:
-
-- [remarkablegames](https://remarkablegames.org/kaboom-template)
-
-Stack:
+## Stack
 
 - [Kaboom](https://kaboomjs.com/)
 - [Vite](https://vitejs.dev/)
