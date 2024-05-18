@@ -3,7 +3,7 @@
   "name": "Kaboom Template",
   "icons": [
     {
-      "src": "kaboom.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "72x72"
     }
