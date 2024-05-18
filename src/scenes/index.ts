@@ -1,2 +1,7 @@
-export * from './game'
-export * from './start'
+import './game'
+
+import { Scene } from '../types'
+
+export function start() {
+  go(Scene.game)
+}
