@@ -1,3 +1,5 @@
+import './style.css'
+
 import { start } from './scenes'
 
 start()
