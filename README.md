@@ -1,6 +1,17 @@
-# kaboom-template
+<p align="center">
+  <img src="https://github.com/remarkablegames/kaboom-template/blob/master/public/logo.png" alt="Kaboom Template">
+</p>
 
-<kbd>kaboom-template</kbd> is a template for making [Kaboom](https://kaboomjs.com/) games. See [example](https://remarkablegames.org/kaboom-template).
+# Kaboom Template
+
+![release](https://img.shields.io/github/v/release/remarkablegames/kaboom-template)
+[![build](https://github.com/remarkablegames/kaboom-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/kaboom-template/actions/workflows/build.yml)
+
+<kbd>kaboom-template</kbd> is a template for making [Kaboom.js](https://kaboomjs.com/) games.
+
+Play the game on:
+
+- [remarkablegames](https://remarkablegames.org/kaboom-template)
 
 ## Stack
 
