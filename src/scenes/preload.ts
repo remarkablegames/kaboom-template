@@ -1,10 +1,8 @@
-import { sprites } from '../assets'
-import { Scene } from '../types'
+import { Scene, Sprite } from '../types'
 
-scene(Scene.preload, async () => {
-  await Promise.all(
-    Object.entries(sprites).map((sprite) => loadSprite(...sprite)),
-  )
+scene(Scene.preload, () => {
+  loadSprite(Sprite.bean, 'sprites/bean.png')
+  loadSprite(Sprite.ghosty, 'sprites/ghosty.png')
 
   go(Scene.game)
 })
