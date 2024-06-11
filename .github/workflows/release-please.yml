@@ -9,10 +9,11 @@ permissions:
   pull-requests: write
 
 jobs:
-  release-please:
+  release:
     runs-on: ubuntu-latest
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
 
     steps:
       - name: Release Please
@@ -21,10 +22,10 @@ jobs:
         with:
           release-type: node
 
-  publish:
-    needs: release-please
+  deploy:
+    needs: release
     runs-on: ubuntu-latest
-    if: ${{ needs.release-please.outputs.release_created }}
+    if: ${{ needs.release.outputs.release_created }}
 
     steps:
       - name: Checkout repository
@@ -52,3 +53,8 @@ jobs:
         run: butler push dist ${{ github.repository }}:html5 --userversion ${{ env.VERSION }}
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+
+      - name: Upload Release Artifact
+        run: gh release upload ${{ needs.release.outputs.tag_name }} dist/${{ github.event.repository.name }}-${{ env.VERSION }}.zip
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
