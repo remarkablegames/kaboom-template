@@ -13,12 +13,6 @@ Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/kaboom-template)
 
-## Stack
-
-- [Kaboom](https://kaboomjs.com/)
-- [Vite](https://vitejs.dev/)
-- [GitHub Pages](https://pages.github.com/)
-
 ## Prerequisites
 
 - [nvm](https://github.com/nvm-sh/nvm#readme)
@@ -30,12 +24,6 @@ Clone the repository:
 ```sh
 git clone https://github.com/remarkablegames/kaboom-template.git
 cd kaboom-template
-```
-
-Use the Node.js version:
-
-```sh
-nvm use
 ```
 
 Install the dependencies:
