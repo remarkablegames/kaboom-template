@@ -32,6 +32,12 @@ Install the dependencies:
 npm install
 ```
 
+Update the environment variables:
+
+```sh
+cp .env .env.local
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
