@@ -1,7 +1,7 @@
 {
-  "name": "kaboom-template",
+  "name": "kaplay-template",
   "version": "1.0.0-alpha",
-  "description": "A template for building Kaboom games.",
+  "description": "A template for building Kaplay games.",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
     "build": "npm run clean && vite build",
@@ -14,9 +14,9 @@
     "preview": "vite preview",
     "start": "vite --open"
   },
-  "homepage": "https://remarkablegames.org/kaboom-template/",
+  "homepage": "https://remarkablegames.org/kaplay-template/",
   "dependencies": {
-    "kaboom": "3000.1.17"
+    "kaplay": "3001.0.9"
   },
   "devDependencies": {
     "@commitlint/cli": "19.6.1",

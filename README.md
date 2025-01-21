@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://github.com/remarkablegames/kaboom-template/blob/master/public/logo.png" alt="Kaplay Template">
+  <img src="https://github.com/remarkablegames/kaplay-template/blob/master/public/logo.png" alt="Kaplay Template">
 </p>
 
 # Kaplay Template
 
-![release](https://img.shields.io/github/v/release/remarkablegames/kaboom-template)
-[![build](https://github.com/remarkablegames/kaboom-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/kaboom-template/actions/workflows/build.yml)
+![release](https://img.shields.io/github/v/release/remarkablegames/kaplay-template)
+[![build](https://github.com/remarkablegames/kaplay-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/kaplay-template/actions/workflows/build.yml)
 
-<kbd>kaboom-template</kbd> is a template for making [Kaboom.js](https://kaboomjs.com/) games.
+<kbd>kaplay-template</kbd> is a template for making [KAPLAY](https://kaplayjs.com/) games.
 
 Play the game on:
 
-- [remarkablegames](https://remarkablegames.org/kaboom-template)
+- [remarkablegames](https://remarkablegames.org/kaplay-template)
 
 ## Prerequisites
 
@@ -22,8 +22,8 @@ Play the game on:
 Clone the repository:
 
 ```sh
-git clone https://github.com/remarkablegames/kaboom-template.git
-cd kaboom-template
+git clone https://github.com/remarkablegames/kaplay-template.git
+cd kaplay-template
 ```
 
 Install the dependencies:
