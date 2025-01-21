@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: npm run build -- --base /${{ github.event.repository.name }}/
         env:
-          VITE_GOOGLE_ANALYTICS_ID: ${{ vars.GOOGLE_ANALYTICS_ID }}
+          VITE_GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
       - name: Deploy
         if: github.ref_name == 'master'
