@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://github.com/remarkablegames/kaboom-template/blob/master/public/logo.png" alt="Kaboom Template">
+  <img src="https://github.com/remarkablegames/kaboom-template/blob/master/public/logo.png" alt="Kaplay Template">
 </p>
 
-# Kaboom Template
+# Kaplay Template
 
 ![release](https://img.shields.io/github/v/release/remarkablegames/kaboom-template)
 [![build](https://github.com/remarkablegames/kaboom-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/kaboom-template/actions/workflows/build.yml)
