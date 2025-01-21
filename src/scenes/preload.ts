@@ -1,8 +1,7 @@
-import { Scene, Sprite } from '../types'
+import { Scene, Sprite } from '../constants'
 
-scene(Scene.preload, () => {
-  loadSprite(Sprite.bean, 'sprites/bean.png')
-  loadSprite(Sprite.ghosty, 'sprites/ghosty.png')
-
-  go(Scene.game)
+scene(Scene.Preload, () => {
+  loadSprite(Sprite.Bean, 'sprites/bean.png')
+  loadSprite(Sprite.Ghosty, 'sprites/ghosty.png')
+  go(Scene.Game)
 })

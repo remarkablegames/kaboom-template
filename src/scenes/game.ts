@@ -1,8 +1,8 @@
+import { Scene } from '../constants'
 import { addCursorKeys } from '../events'
 import { addEnemy, addPlayer } from '../gameobjects'
-import { Scene } from '../types'
 
-scene(Scene.game, () => {
+scene(Scene.Game, () => {
   const player = addPlayer()
 
   player.onUpdate(() => {
